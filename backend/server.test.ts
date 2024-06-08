@@ -13,6 +13,18 @@ const userData = {
   universidade: 'Universidade Federal de Minas Gerais'
 }; 
 
+const professorData = {
+  professorNome: 'Professor Teste',
+  professorMateria: 'Teste de Software',
+  professorUniversidade: 'Universidade Teste',
+  semestre: '2021/1',
+  nota: 5,
+  departamento: 'Departamento de Teste',
+  avaliacaoTexto: 'Professor muito bom'
+};
+
+const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhQGEuY29tIiwiaWF0IjoxNzE3ODgwMzYxLCJleHAiOjE3MTc4ODM5NjF9.TFXTYUU9Xv2GnzpQSVnITt_oM_CJDXHEU8KwlqftmdE';
+
 beforeAll(() => {
   server = app.listen();
 });
@@ -75,16 +87,8 @@ describe('Testes da rota de avaliar professor', () => {
   it('Deve responder com status 200 para a rota de avaliar professor', async () => {
     const res = await request(app)
       .post('/avaliar-professor')
-      .set('Authorization', `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhQGEuY29tIiwiaWF0IjoxNzE3ODgwMzYxLCJleHAiOjE3MTc4ODM5NjF9.TFXTYUU9Xv2GnzpQSVnITt_oM_CJDXHEU8KwlqftmdE`)
-      .send({
-        professorNome: 'Professor Teste',
-        professorMateria: 'Teste de Software',
-        professorUniversidade: 'Universidade Teste',
-        semestre: '2021/1',
-        nota: 5,
-        departamento: 'Departamento de Teste',
-        avaliacaoTexto: 'Professor muito bom'
-      });
+      .set('Authorization', token)
+      .send(professorData);
     expect(res.statusCode).toEqual(200);
   });
 
@@ -92,12 +96,8 @@ describe('Testes da rota de avaliar professor', () => {
     const res = await request(app)
       .post('/avaliar-professor')
       .send({
-        professorNome: 'Professor Teste',
-        professorMateria: 'Teste de Software',
-        professorUniversidade: 'Universidade Teste',
-        semestre: '2021/1',
-        nota: 5,
-        departamento: 'Departamento de Teste'
+        ...professorData,
+        avaliacaoTexto: undefined 
       });
     expect(res.statusCode).toEqual(400);
   });
@@ -105,15 +105,10 @@ describe('Testes da rota de avaliar professor', () => {
   it('Deve responder com status 400 se a nota for inválida', async () => {
     const res = await request(app)
       .post('/avaliar-professor')
-      .set('Authorization', `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhQGEuY29tIiwiaWF0IjoxNzE3ODgwMzYxLCJleHAiOjE3MTc4ODM5NjF9.TFXTYUU9Xv2GnzpQSVnITt_oM_CJDXHEU8KwlqftmdE`)
+      .set('Authorization', token)
       .send({
-        professorNome: 'Professor Teste',
-        professorMateria: 'Teste de Software',
-        professorUniversidade: 'Universidade Teste',
-        semestre: '2021/1',
-        nota: 6,
-        departamento: 'Departamento de Teste',
-        avaliacaoTexto: 'Professor muito bom'
+        ...professorData,
+        nota: 6
       });
     expect(res.statusCode).toEqual(400);
   });
@@ -121,15 +116,7 @@ describe('Testes da rota de avaliar professor', () => {
   it('Deve responder com status 401 se o token não for fornecido', async () => {
     const res = await request(app)
       .post('/avaliar-professor')
-      .send({
-        professorNome: 'Professor Teste',
-        professorMateria: 'Teste de Software',
-        professorUniversidade: 'Universidade Teste',
-        semestre: '2021/1',
-        nota: 5,
-        departamento: 'Departamento de Teste',
-        avaliacaoTexto: 'Professor muito bom'
-      });
+      .send(professorData);
     expect(res.statusCode).toEqual(401);
   });
 
@@ -137,15 +124,7 @@ describe('Testes da rota de avaliar professor', () => {
     const res = await request(app)
       .post('/avaliar-professor')
       .set('Authorization', 'token_invalido')
-      .send({
-        professorNome: 'Professor Teste',
-        professorMateria: 'Teste de Software',
-        professorUniversidade: 'Universidade Teste',
-        semestre: '2021/1',
-        nota: 5,
-        departamento: 'Departamento de Teste',
-        avaliacaoTexto: 'Professor muito bom'
-      });
+      .send(professorData);
     expect(res.statusCode).toEqual(401);
   });
 });
@@ -161,8 +140,8 @@ describe('Testes da rota de aluno', () => {
   it('Deve responder com status 200 para a rota de aluno', async () => {
     const res = await request(app)
       .get('/aluno')
-      .set('authorization', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhQGEuY29tIiwiaWF0IjoxNzE3ODgwMzYxLCJleHAiOjE3MTc4ODM5NjF9.TFXTYUU9Xv2GnzpQSVnITt_oM_CJDXHEU8KwlqftmdE'); 
-    expect(res.statusCode).toEqual(200);
+      .set('authorization', token);
+      expect(res.statusCode).toEqual(200);
   });
 
   it('Deve responder com status 401 se o token não for fornecido', async () => {

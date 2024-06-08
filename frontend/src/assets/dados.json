@@ -1,0 +1,291 @@
+{
+    "dados": [
+        {
+            "nomeProfessor": "Estevão Silva",
+            "disciplinaOfertada": "GEOMETRIA ANALITICA E ALGEBRA LINEAR",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 10,
+            "quantidadeEstrelas": 4.5,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Maria Santos",
+            "disciplinaOfertada": "CALCULO DIFERENCIAL E INTEGRAL I",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 19,
+            "quantidadeEstrelas": 3.8,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Pedro Rocha",
+            "disciplinaOfertada": "CALCULO DIFERENCIAL E INTEGRAL II",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 88,
+            "quantidadeEstrelas": 4.2,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Mateus Silva",
+            "disciplinaOfertada": "EQUACOES DIFERENCIAIS B",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 95,
+            "quantidadeEstrelas": 4.3,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Carolina Alves",
+            "disciplinaOfertada": "ALGEBRA A",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 94,
+            "quantidadeEstrelas": 4.2,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Rafael Lima",
+            "disciplinaOfertada": "ALGEBRA LINEAR II",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 92,
+            "quantidadeEstrelas": 4.0,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Luiza Santos",
+            "disciplinaOfertada": "ANALISE I",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 96,
+            "quantidadeEstrelas": 4.4,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Pedro Pereira",
+            "disciplinaOfertada": "CALCULO DIFERENCIAL E INTEGRAL III",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 97,
+            "quantidadeEstrelas": 4.5,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Mariana Almeida",
+            "disciplinaOfertada": "EQUACOES DIFERENCIAIS A",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 93,
+            "quantidadeEstrelas": 4.3,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Julio Oliveira",
+            "disciplinaOfertada": "EQUACOES DIFERENCIAIS B",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 90,
+            "quantidadeEstrelas": 4.0,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Larissa Lima",
+            "disciplinaOfertada": "CALCULO DIFERENCIAL E INTEGRAL III",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 98,
+            "quantidadeEstrelas": 4.6,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Gustavo Santos",
+            "disciplinaOfertada": "CALCULO DIFERENCIAL E INTEGRAL II",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 92,
+            "quantidadeEstrelas": 4.2,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Carla Lima",
+            "disciplinaOfertada": "CALCULO DIFERENCIAL E INTEGRAL I",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 94,
+            "quantidadeEstrelas": 4.4,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Laura Alves",
+            "disciplinaOfertada": "GEOMETRIA ANALITICA E ALGEBRA LINEAR",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 95,
+            "quantidadeEstrelas": 4.5,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Roberto Lima",
+            "disciplinaOfertada": "EQUACOES DIFERENCIAIS B",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 93,
+            "quantidadeEstrelas": 4.3,
+            "departamento": "Matemática"
+        },{
+            "nomeProfessor": "Sofia Santos",
+            "disciplinaOfertada": "EQUACOES DIFERENCIAIS A",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 91,
+            "quantidadeEstrelas": 4.1,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Elisa Almeida",
+            "disciplinaOfertada": "CALCULO DIFERENCIAL E INTEGRAL III",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 96,
+            "quantidadeEstrelas": 4.6,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Fernando Pereira",
+            "disciplinaOfertada": "EQUACOES DIFERENCIAIS A",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 97,
+            "quantidadeEstrelas": 4.7,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Amanda Santos",
+            "disciplinaOfertada": "CALCULO DIFERENCIAL E INTEGRAL II",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 90,
+            "quantidadeEstrelas": 4.0,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Lucas Almeida",
+            "disciplinaOfertada": "CALCULO DIFERENCIAL E INTEGRAL I",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 99,
+            "quantidadeEstrelas": 4.9,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Donoteia Lima",
+            "disciplinaOfertada": "GEOMETRIA ANALITICA E ALGEBRA LINEAR",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 98,
+            "quantidadeEstrelas": 4.8,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Isabel Alves",
+            "disciplinaOfertada": "GEOMETRIA ANALITICA E ALGEBRA LINEAR",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 91,
+            "quantidadeEstrelas": 4.1,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Rogerio Lima",
+            "disciplinaOfertada": "MATEMATICA",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 95,
+            "quantidadeEstrelas": 4.5,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Diego Almeida",
+            "disciplinaOfertada": "CALCULO DE VARIAS VARIAVEIS",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 93,
+            "quantidadeEstrelas": 4.3,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Aline Santos",
+            "disciplinaOfertada": "GEOMETRIA ANALITICA E ALGEBRA LINEAR",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 92,
+            "quantidadeEstrelas": 4.2,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Gustavo Amaral",
+            "disciplinaOfertada": "MATEMATICA A",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 97,
+            "quantidadeEstrelas": 4.7,
+            "departamento": "Matemática"
+        },
+        {
+            "nomeProfessor": "Geisielle de Araujo",
+            "disciplinaOfertada": "ECONOMIA A I",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 95,
+            "quantidadeEstrelas": 4.0,
+            "departamento": "Economia"
+        },
+        {
+            "nomeProfessor": "Luiz Fernandes",
+            "disciplinaOfertada": "ESTATISTICA E PROBABILIDADES",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 88,
+            "quantidadeEstrelas": 4.6,
+            "departamento": "Estatística"
+        },
+        {
+            "nomeProfessor": "Fernanda Santos",
+            "disciplinaOfertada": "PROBABILIDADE",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 94,
+            "quantidadeEstrelas": 4.2,
+            "departamento": "Estatística"
+        },
+        {
+            "nomeProfessor": "Rodrigo Pereira",
+            "disciplinaOfertada": "ESTATISTICA E PROBABILIDADES",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 96,
+            "quantidadeEstrelas": 4.4,
+            "departamento": "Estatística"
+        },
+        {
+            "nomeProfessor": "Camila Lima",
+            "disciplinaOfertada": "ESTATISTICA E PROBABILIDADES",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 97,
+            "quantidadeEstrelas": 4.5,
+            "departamento": "Estatística"
+        },
+        {
+            "nomeProfessor": "André Almeida",
+            "disciplinaOfertada": "ESTATISTICA II",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 93,
+            "quantidadeEstrelas": 4.1,
+            "departamento": "Estatística"
+        },
+        {
+            "nomeProfessor": "Larissa Oliveira",
+            "disciplinaOfertada": "ESTATISTICA I",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 92,
+            "quantidadeEstrelas": 4.0,
+            "departamento": "Estatística"
+        },
+        {
+            "nomeProfessor": "Carla Rodrigues",
+            "disciplinaOfertada": "ADMINISTRACAO T.G.A.",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 92,
+            "quantidadeEstrelas": 4.1,
+            "departamento": "Ciências Administrativas"
+        },
+        {
+            "nomeProfessor": "Rafaela Mendes",
+            "disciplinaOfertada": "ADMINISTRACAO MERCADOLOGICA",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 87,
+            "quantidadeEstrelas": 4.3,
+            "departamento": "Ciências Administrativas"
+        },
+        {
+            "nomeProfessor": "Gustavo Lima",
+            "disciplinaOfertada": "ADMINISTRACAO DE RECURSOS HUMANOS",
+            "semestre": "2023/1",
+            "numeroAvaliacoes": 90,
+            "quantidadeEstrelas": 4.2,
+            "departamento": "Ciências Administrativas"
+        }
+    ]
+}

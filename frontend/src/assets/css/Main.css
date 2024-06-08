@@ -1,0 +1,24 @@
+/* Geral */
+
+h1,
+p,
+h2,
+h3 {
+    color: #ffffff;
+}
+
+/* HeaderHome */
+
+.navegacao a {
+    color: #000;
+    /* Cor padrão */
+    transition: color 0.3s;
+    /* Efeito de transição suave na cor */
+}
+
+.navegacao a:hover {
+    color: #9582a1;
+    /* Cor alterada ao passar o mouse */
+    box-shadow: 0 0 10px rgba(149, 130, 161, 0.5);
+    /* Efeito de sombra ao passar o mouse */
+}

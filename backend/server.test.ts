@@ -75,7 +75,7 @@ describe('Testes da rota de avaliar professor', () => {
   it('Deve responder com status 200 para a rota de avaliar professor', async () => {
     const res = await request(app)
       .post('/avaliar-professor')
-      .set('Authorization', `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhQGEuY29tIiwiaWF0IjoxNzE3ODczMjIxLCJleHAiOjE3MTc4NzY4MjF9.7Y6hXCDjgvzPESRee0rYNpmu83VyQ6ahdzzvxPT_Js8`)
+      .set('Authorization', `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhQGEuY29tIiwiaWF0IjoxNzE3ODgwMzYxLCJleHAiOjE3MTc4ODM5NjF9.TFXTYUU9Xv2GnzpQSVnITt_oM_CJDXHEU8KwlqftmdE`)
       .send({
         professorNome: 'Professor Teste',
         professorMateria: 'Teste de Software',
@@ -105,7 +105,7 @@ describe('Testes da rota de avaliar professor', () => {
   it('Deve responder com status 400 se a nota for inválida', async () => {
     const res = await request(app)
       .post('/avaliar-professor')
-      .set('Authorization', `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhQGEuY29tIiwiaWF0IjoxNzE3ODczMjIxLCJleHAiOjE3MTc4NzY4MjF9.7Y6hXCDjgvzPESRee0rYNpmu83VyQ6ahdzzvxPT_Js8`)
+      .set('Authorization', `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhQGEuY29tIiwiaWF0IjoxNzE3ODgwMzYxLCJleHAiOjE3MTc4ODM5NjF9.TFXTYUU9Xv2GnzpQSVnITt_oM_CJDXHEU8KwlqftmdE`)
       .send({
         professorNome: 'Professor Teste',
         professorMateria: 'Teste de Software',
@@ -161,7 +161,7 @@ describe('Testes da rota de aluno', () => {
   it('Deve responder com status 200 para a rota de aluno', async () => {
     const res = await request(app)
       .get('/aluno')
-      .set('authorization', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhQGEuY29tIiwiaWF0IjoxNzE3ODczMjIxLCJleHAiOjE3MTc4NzY4MjF9.7Y6hXCDjgvzPESRee0rYNpmu83VyQ6ahdzzvxPT_Js8'); 
+      .set('authorization', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhQGEuY29tIiwiaWF0IjoxNzE3ODgwMzYxLCJleHAiOjE3MTc4ODM5NjF9.TFXTYUU9Xv2GnzpQSVnITt_oM_CJDXHEU8KwlqftmdE'); 
     expect(res.statusCode).toEqual(200);
   });
 
